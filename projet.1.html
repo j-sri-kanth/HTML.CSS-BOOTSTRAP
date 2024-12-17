@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        body {
+            overflow-y: 500px;
+        }
+
+
+        .navbar {
+            height: 60px;
+            width: 100%;
+            background-color: aqua;
+        }
+
+        .name,
+        .un-li,
+        li {
+            display: inline-block;
+            padding: 7px;
+            position: sticky;
+            left: 60px;
+        }
+
+        .un-li {
+            position: relative;
+            right: 110px;
+            row-gap: 20px;
+        }
+
+        .icons {
+            position: relative;
+            left: 80px;
+        }
+
+        .un-li :hover {
+            color: red;
+        }
+
+        span {
+            color: red;
+        }
+
+        .img-name {
+            height: 300px;
+            width: 100%;
+        }
+
+        /*product*/
+        .product {
+            height: 250px;
+            width: 100%;
+        }
+
+        .text1 {
+            position: relative;
+            left: 250px;
+        }
+
+        .name1 {
+            position: relative;
+            left: 150px;
+            float: left;
+        }
+
+        .para {
+            position: relative;
+            margin-left: 500px;
+            top: 90px;
+        }
+
+        h3 {
+            position: relative;
+            margin-left: 500px;
+            top: 100px;
+        }
+
+        .board {
+            position: relative;
+            margin-left: 210px;
+        }
+
+        h4 {
+            gap: -50px;
+            position: relative;
+            margin-left: 60px;
+            bottom: 70px;
+        }
+
+        h4:hover {
+            color: red;
+        }
+
+        .border {
+            height: 250px;
+            width: 100%;
+            border: none;
+            background-color: lightblue;
+        }
+
+        .shop {
+            position: relative;
+            margin-left: 460px;
+            bottom: 200px;
+        }
+
+        .shop-own {
+            position: relative;
+            margin-left: 420px;
+            bottom: 150px;
+            font-size: 15px;
+        }
+
+        h6 {
+            position: relative;
+            margin-left: 450px;
+            bottom: 150px;
+        }
+
+        h6:hover {
+            color: red;
+        }
+
+        .head {
+            text-align: center;
+            position: relative;
+            bottom: 60px;
+        }
+
+        .products {
+            padding: 10px;
+            position: relative;
+            bottom: 80px;
+        }
+
+        .img {
+            position: relative;
+            background-color: whitesmoke;
+            font-size: 10px;
+        }
+
+        .img:hover {
+            background-color: whitesmoke;
+            box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(193, 190, 190);
+        }
+
+        .view {
+            position: relative;
+            top: 80px;
+            right: 110px;
+            text-decoration-line: underline;
+        }
+
+        .footer {
+
+            height: 180px;
+            width: 100%;
+            background-color: black;
+            color: whitesmoke;
+        }
+
+        .content1 {
+            position: relative;
+            color: whitesmoke;
+            right: 440px;
+            bottom: 80px;
+        }
+
+        .content-para {
+            margin-left: 53px;
+            font-size: 10px;
+            padding: 8px;
+        }
+
+        .content-para1 {
+            margin-left: 60px;
+            font-size: 10px;
+        }
+
+        .content2 {
+            position: relative;
+            right: 250px;
+            bottom: 180px;
+        }
+
+        .map1 {
+            position: relative;
+            left: 250px;
+            bottom: 100px;
+            font-size: 10px;
+        }
+
+        .map2 {
+            position: relative;
+            left: 250px;
+            bottom: 100px;
+            font-size: 10px;
+        }
+
+        .map3 {
+            position: relative;
+            left: 250px;
+            bottom: 100px;
+            font-size: 10px;
+        }
+
+        .products1 {
+            position: relative;
+            left: 400px;
+            bottom: 130px;
+            font-size: 10px;
+        }
+
+        .faqs {
+            position: relative;
+            left: 400px;
+            bottom: 130px;
+            font-size: 10px;
+        }
+
+        .content3 {
+            position: relative;
+            left: 50px;
+            bottom: 290px;
+        }
+
+        .icons1 {
+            position: relative;
+            left: 550px;
+            bottom: 200px;
+        }
+
+        .icons2 {
+            position: relative;
+            left: 580px;
+            bottom: 219px;
+        }
+
+        .icons3 {
+            position: relative;
+            left: 610px;
+            bottom: 237px;
+        }
+
+        .icons4 {
+            position: relative;
+            left: 640px;
+            bottom: 257px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <a href="parent"><img src="./pjt.jpg" height="70px" width="70%"></a>-->
+
+    <nav class="navbar">
+        <h1 class="name"><span>little</span>fashion</h1>
+        <ul class="un-li">
+            <li>home</li>
+            <li>story</li>
+            <li>product</li>
+            <li>FAQs</li>
+            <li>contact</li>
+            <li class="icons"><span><i class="fa-regular fa-user"></i></span>
+                <span><i class="fa-solid fa-bag-shopping"></i></span></li>
+        </ul>
+    </nav>
+    <div class="parent">
+        <div class="product">
+            <img src="./pjt1.jpg" alt="name" class="img-name">
+            <h2 class="text1">Get start with <span>little</span>fashion</h2>
+            <img src="./pjt3.jpg" alt="" height="200" width="270" class="board">
+        </div>
+        <h3>good <span>designs</span><br>
+            ideas for <span>your</span>fashion</h3>
+        <p class="para">Little Fashion templates comes with <br>
+            sign in / sign up pages, product <br>listing / product detail, about, FAQs,<br> and contact <br>
+            Since this HTML template is based <br> on Boostrap CSS library, you can feel <br> free to add more
+            components as you <br>need.</p>
+
+        <h4 class="bike1">introduction</h4>
+        <h4 class="bike2">how to work?</h4>
+        <h4 class="bike3">capabilities</h4>
+        <div class="border">
+            <img src="./pjt4.jpg" alt="" height="250" width="400" class="border-img">
+            <h1 class="shop"><span>retail</span>shop owner</h1>
+        </div>
+        <p class="shop-own">Credits go to Unsplash and FreePik websites for <br> images used in this Little Fashion by
+            Tooplate.
+            <h6>explore products <span><i class="fa-solid fa-arrow-right"></i></span></h6>
+        </p>
+        <h1 class="head">Featured Products</h1>
+
+
+        <div class="products">
+            <un class="ul-li">
+                <li class="img"><img src="./pjt5.jpg" alt="" height="160" width="200"><br>
+                    <h5>tree pot</h5>orginal package design from house
+                </li>
+                <li class="img"><img src="./pjt6.jpg" alt="" height="160" width="200"> <br>
+                    <h5>fashion set</h5>costmer package
+                <li>
+                <li class="img"><img src="./pjt7.jpg" alt="" height="160" width="200"> <br>
+                    <h5>juicey drinks</h5>nature made another world
+                </li>
+            </un>
+        </div>
+        <div class="view">
+            <h6>view all products</h6>
+        </div>
+
+    </div>
+    </div>
+    <!--   footter part-->
+    <footer class="footer">
+        <div class="content1">
+            <h3>little fashion</h3>
+        </div>
+        <div class="content-para">copy right &copy; little fashion</div>
+        <div class="content-para1">designed by Tooplate</div>
+        <div class="content2">
+            <h3>sitemap</h3>
+        </div>
+        <div class="map1">story</div>
+        <div class="map2">privacy policy</div>
+        <div class="map3">contact</div>
+        <div class="products1">product</div>
+        <div class="faqs">FAQs</div>
+        <div class="content3">
+            <h3>social</h3>
+        </div>
+        <div class="icons1"><i class="fa-brands fa-youtube"></i></div>
+        <div class="icons2"><i class="fa-brands fa-instagram"></i></div>
+        <div class="icons3"><i class="fa-brands fa-skype"></i></div>
+        <div class="icons4"><i class="fa-brands fa-whatsapp"></i></div>
+    </footer>
+
+</body>
+
+</html>
